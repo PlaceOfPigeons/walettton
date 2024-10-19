@@ -27,6 +27,10 @@
     <div id="ton-connect-button"></div>
 
     <script>
+        // Установка черной темы
+        Telegram.WebApp.setBackgroundColor("#000000");
+        Telegram.WebApp.setHeaderColor("#000000");
+
         // Создаем экземпляр TonConnect UI
         const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
             manifestUrl: 'https://placeofpigeons.github.io/walettton/tonconnect-manifest.json', // Относительный путь к манифесту
